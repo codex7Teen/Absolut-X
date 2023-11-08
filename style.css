@@ -1,0 +1,420 @@
+
+/* <!-- ********************************STYLE******************************** --> */
+
+header{
+    position: fixed;
+}
+body{
+    margin: 0;
+}
+
+
+/* <!-- ********************************Header******************************** --> */
+
+
+.navigation{
+    width: 100vw;
+    height: 48px;
+    display: flex;
+    background-image: url(navigation.png);
+}
+.equalssign{
+    margin-left: 5px;
+    margin-top: 13px;;
+
+}
+.equalssign :hover{
+    background-color:grey;
+}
+.heading{
+    font-family: fantasy;
+    font-size: 32px;
+    color: white;
+     margin-left: 637px;
+     margin-top: -36px;
+}
+.heading:hover{
+    background-color:blue;
+}
+
+
+/* <!-- ********************************Section-1******************************** --> */
+
+
+.mainbanner{
+    background-image: url(mainbannerx2.jpeg);
+    background-repeat: no-repeat;
+    width: 99vw;
+    height: 91vh;
+    background-color: aqua;
+    background-size: cover;
+}
+.alltext{
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.alltext p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.button1{
+    font-size: 16px;
+    font-family: calibri;
+    background-color: white;
+    font-weight:bold;
+    border-style: none;
+    padding: 9px 60px;
+    border-radius: 5px;
+}
+.button1:hover{
+    color: blue;
+
+}
+.text1{
+    margin-top: 67px;
+    font-weight: bold;
+    font-size: 70px;
+    font-family:cursive;
+}
+.text2{
+    margin-top: 77px;
+    font-family: fantasy;
+    font-size: 85px;
+}
+.text3{
+    margin-top: 17px;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+}
+
+
+/* <!-- ********************************Section-2******************************** --> */
+
+
+.s2head{
+    padding-top: 85px;
+    text-align: center;
+}
+.s2head p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.secondline{
+    margin-bottom: -5px;
+    padding-left: 603px;
+    display: flex;
+}
+.second{
+    margin-left: 15px;
+}
+.bottles{
+    font-family: calibri;
+    font-weight: bold;
+    gap: 10px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.featured{
+    font-weight: bold;
+    font-size: 30px;
+    font-family:cursive;
+}
+.first{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 36px;
+}
+.second{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.bottlex:hover{
+    color: blue;
+}
+.s2background{
+    margin-bottom: 100px;
+}
+
+
+/* <!-- ********************************Section-3******************************** --> */
+
+
+.maincover{
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    background-image: url(maincoverbottleandglass.png);
+    width: 100%;
+    height:98vh;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    padding-left: 226px;
+    padding-top: 200px;
+}
+.button2{
+    color: white;
+    font-size: 16px;
+    font-family: calibri;
+    background-color:#050395;
+    font-weight:bold;
+    border-style: none;
+    padding: 6px 47px;
+    border-radius: 2px;
+    margin-left: 360px;
+    margin-top: 0px;
+}
+.button2:hover{
+    background-color: rgb(31, 31, 255);
+}
+.texta{
+    color:#050395;
+    font-family: fantasy;
+    font-size: 85px;
+}
+.textb{
+    color:#050395;
+    font-family: fantasy;
+    font-size: 85px;
+}
+.maintext p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+
+/* <!-- ********************************Section-4******************************** --> */
+
+
+.coctails{
+    font-family: calibri;
+    font-weight: bold;
+    gap: 10px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.most{
+    padding-left: 621px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:cursive;
+}
+.absolut{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 36px;
+}
+.drinks{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.secondline-abdr{
+    margin-bottom: -5px;
+    padding-left: 603px;
+    display: flex;
+}
+.s3head p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.s3background{
+    margin-bottom: 100px;
+}
+.coctailx:hover{
+    color: blue;
+}
+
+
+/* *******************************section5******************************* */
+
+.canscover{
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    background-image: url(canscover.png);
+    width: 100%;
+    height:99vh;
+}
+.mainheadings{
+    display: flex;
+    flex-direction: column;
+    padding-left: 226px;
+    padding-top: 200px;
+}
+.textabcans{
+    color:#0502be;
+    font-family: fantasy;
+    font-size: 85px;
+    margin-top: 35px;
+    margin-left: -21px;
+}
+.textsoda{
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color:#0502be;
+    margin-left: 82px;
+    margin-top: 10px;
+}
+.button3{
+    color: white;
+    font-size: 16px;
+    font-family: calibri;
+    background-color:#0502be;
+    font-weight:bold;
+    border-style: none;
+    padding: 6px 35px;
+    border-radius: 2px;
+    margin-left: 360px;
+    margin-top: 15px;
+}
+.button3:hover{
+    background-color: rgb(31, 31, 255);
+}
+.mainheadings p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+
+/* *******************************section6******************************* */
+
+.girlscover{
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    background-image: url(collagebanner.png);
+    width: 100%;
+    height:99vh;
+}
+.mainhead{
+    display: flex;
+    flex-direction: column;
+    padding-left: 226px;
+    padding-top: 200px;
+}
+.maintext1{
+    color:white;
+    font-family: fantasy;
+    font-size: 85px;
+    margin-top: 12px;
+    margin-left: 330px;
+}
+.maintext2{
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color:white;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.maintext2line2{
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color:white;
+    margin-left: 280px;
+}
+.button4{
+    color:black;
+    font-size: 16px;
+    font-family: calibri;
+    background-color:white;
+    font-weight:bold;
+    border-style: none;
+    padding: 6px 50px;
+    border-radius: 2px;
+    margin-left: 647px;
+    margin-top: 25px;
+}
+.button4:hover{
+    color: rgb(31, 31, 255);
+}
+.mainhead p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+
+/* *******************************section7******************************* */
+
+
+.discover{
+    font-family: calibri;
+    font-weight: bold;
+    display: flex;
+    gap:30px;
+}
+.section7background{
+    margin-bottom: 100px;
+    margin-left: 11%;
+    margin-right: 10%;
+}
+.link{
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* *******************************Footer-Begin******************************* */
+
+
+.finalsection{
+    display: flex;
+    padding-left: 78px;
+    justify-content:space-around;
+}
+.row1{
+    margin-left:-14px;
+}
+.row2{
+    margin-left: -8%;
+}
+.row3{
+    margin-left: -7%;
+}
+.row4{
+    transform: translatex(-48%);
+}
+.finalsection{
+    padding-top:50px;
+    background-color: rgb(237, 237, 237);
+}
+.r1t1{
+    font-size: 19px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+.nobold{
+    border-bottom: 1px solid rgb(217, 217, 217);
+    font-family: calibri;
+    font-size: 18px;
+    
+}
+.company{
+    font-family: calibri;
+    font-size: 18px;
+}
+.social{
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+
+/* *******************************Footer-Final******************************* */
+
+
+.finalbar{
+    text-align: center;
+    background-color: #050395;
+}
+.bartext{
+    color: white;
+    font-family: calibri;
+    font-size: 18px;
+    padding: 1px;
+}
